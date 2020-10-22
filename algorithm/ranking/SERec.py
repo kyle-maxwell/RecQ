@@ -70,7 +70,7 @@ class SERec(SocialRecommender):
             self._update_factors(X, XT)
             print self.mu
             self._update_expo(X, n_users)
-            self.ranking_performance()
+            self.ranking_performance(i)
 
 
     def _update_factors(self, X, XT):
